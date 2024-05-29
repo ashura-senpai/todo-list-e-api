@@ -18,12 +18,14 @@
             <h2>Adicionar Item</h2>
             <form id="todo-form">
                 <input type="text" id="input-title" placeholder="Informe o título da tarefa" />
-                <textarea type="text" id="input-text" placeholder="Informe a descrição da tarefa"></textarea>
+                <textarea id="input-text" placeholder="Informe a descrição da tarefa"></textarea>
                 <button type="submit">SALVAR TAREFA</button>
             </form>
         </section>
 
         <section>
+            <input type="text" id="filter-input" placeholder="Filtrar tarefas pelo título" />
+            <button id="filter-button">FILTRAR</button>
             <ul id="todo-list"></ul>
         </section>
     </main>
@@ -35,7 +37,7 @@
     <dialog id="edit-dialog">
         <form id="edit-form">
             <input type="text" id="edit-title" style="margin-bottom: 10px;" placeholder="Informe o título da tarefa" />
-            <textarea type="text" id="edit-text" placeholder="Informe a descrição da tarefa"></textarea>
+            <textarea id="edit-text" placeholder="Informe a descrição da tarefa"></textarea>
             <div>
                 <button type="submit">Editar tarefa</button>
                 <button type="button" id="cancel-edit">Cancelar</button>

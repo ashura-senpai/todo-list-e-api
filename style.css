@@ -62,11 +62,13 @@ form {
     padding: 20px;
 }
 
-textarea {
+textarea,
+input[type="text"] {
     padding: 10px;
     max-width: 100%;
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 button {
@@ -84,10 +86,6 @@ button {
 
 button:hover {
     background-color: #0056b3;
-}
-
-#input-text {
-    margin-top: 10px;
 }
 
 li::marker {
@@ -112,7 +110,8 @@ h2 {
     margin-top: 8px;
 }
 
-.edit-btn {
+.edit-btn,
+.delete-btn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -123,7 +122,12 @@ h2 {
     cursor: pointer;
 }
 
-.edit-btn:hover {
+.edit-btn {
+    right: 40px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
     background-color: #505050;
 }
 
@@ -143,4 +147,20 @@ footer {
     align-items: center;
     gap: 10px;
     width: 100%;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    textarea,
+    input[type="text"] {
+        width: calc(100% - 20px);
+    }
+
+    button {
+        width: calc(100% - 20px);
+    }
 }
