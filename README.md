@@ -8,8 +8,8 @@ Também poderá utilizar a API de tarefas desenvolvida na outra disciplina, ou u
 
 Os estilos ficam a seu critério.
 
-> NO MEU CASO UTILIZEI A API DO POKEMON. 
-> A CADA TAREFA ADICIONADA, ELE BUSCA NA API UM NOME DE POKEMON E ADICIONA NA TAREFA.
+> NO MEU CASO UTILIZEI A API DO POKEMON.
+> A CADA TAREFA ADICIONADA, ELE BUSCA NA API UM NOME DE POKEMON E ADICIONA NO TÍTULO DA TAREFA.
 
 
 Requisitos
